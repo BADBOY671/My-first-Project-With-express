@@ -18,7 +18,7 @@ app.use(express.static("public"));
 
 
 app.get('/', async function(req,res){
-const serv = client.guilds.cache.get('800986021675794513')
+const serv = client.guilds.cache.get('Guild ID Here')
 
 
 res.render("index.ejs", {
